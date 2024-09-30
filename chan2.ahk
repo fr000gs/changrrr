@@ -3,7 +3,7 @@
 F3:: Suspend -1
 
 LControl & RAlt::{
-    Send "{LWin Down}{LCtrl Down}{Right}{LCtrl Up}{LWin Up}"
+    Send "#^{Right}"
     Sleep 100
     Send "!{esc}"
     Send "^{Tab}"
@@ -15,7 +15,7 @@ AppsKey::{
     Send "^{Tab}"
     Send "!{esc}"
     Sleep 100
-    Send "{LWin Down}{LCtrl Down}{Left}{LCtrl Up}{LWin Up}"
+    Send "#^{Left}"
 }
 F7::{
     Send "!{esc}"
@@ -25,5 +25,7 @@ F7::{
 }
 F8::{
     Send "#d"
+    Sleep 100
     Send "!{F4}"
+    Send "Enter"
 }
