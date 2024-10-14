@@ -1,6 +1,8 @@
 Suspend
 
+#SuspendExempt
 F3:: Suspend -1
+#SuspendExempt False
 
 LControl & RAlt::{
     Send "#^{Right}"
